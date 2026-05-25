@@ -1,0 +1,9 @@
+# Desenvolvido por L. A. Leandro - São José dos Campos - SP - 25/05/2026
+
+name = "edge-geolocation-middleware"
+main = "src/index.ts"
+compatibility_date = "2025-04-01"
+
+[vars]
+ALLOWED_COUNTRIES = ""
+BLOCKED_COUNTRIES = "CU,IR,KP,SY"

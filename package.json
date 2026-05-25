@@ -1,0 +1,19 @@
+{
+  "name": "edge-geolocation-middleware",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Middleware serverless de geolocalização para Cloudflare Workers — roteamento inteligente na borda, geofencing e assinatura criptográfica de headers",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250401.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.1.0",
+    "wrangler": "^4.10.0"
+  }
+}
